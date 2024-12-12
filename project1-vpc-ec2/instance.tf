@@ -42,7 +42,7 @@ data "aws_ami" "forgotAIMbek" {
   owners = ["self"]
   filter {
     name   = "name"
-    values = ["*forgotAIM*"]
+    values = ["*apache*"]
   }
 }
 
