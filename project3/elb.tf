@@ -1,4 +1,4 @@
-#resource "aws_elb" "elb" {
+resource "aws_elb" "elb" {
   name = "elb"
 
   subnets = [

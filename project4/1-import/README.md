@@ -3,5 +3,5 @@
 3. `terraform init`
 4. Create simple EC2 instance terraform resource
 5. Import created EC2 instance to tfstate `terraform import aws_instance.instance instance-id`
-6. Run `terraform plan` and see what changes it has
+6. Run `terraform plan` and see what changes it has 
 7. Change terraform code until there is no changes to plan 
